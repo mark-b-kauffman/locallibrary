@@ -2,6 +2,9 @@
 # Created by https://www.gitignore.io/api/django
 # Edit at https://www.gitignore.io/?templates=django
 
+### environment variables to be kept secret
+.env
+
 ### Django ###
 *.log
 *.pot

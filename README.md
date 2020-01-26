@@ -1,7 +1,11 @@
-# Read at the end how to activate the django environment if you've already set that up.
-# Beware that if you upgraded Mac OS X recently workon may be broken.
-# source .bashrc on terminal startup if you've already done the following when bash was the default.
-# source /Users/mbk/.virtualenvs/my_django_environment/bin/activate
+Read at the end how to activate the django environment if you've already set that up.
+
+We're putting our REST API keys/secrets in .env. See .env.example for an example of how your .env should look.
+We use https://django-environ.readthedocs.io/en/latest/ 
+
+Beware that if you upgraded Mac OS X recently workon may be broken.
+source ~/.bashrc on terminal startup if you've already done the following when bash was the default.
+source /Users/mbk/.virtualenvs/my_django_environment/bin/activate
 
 (my_django_environment) ganymede:locallibrary mbk$ python manage.py createsuperuser
 Username: admin
